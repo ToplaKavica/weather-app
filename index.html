@@ -11,49 +11,42 @@
       crossorigin="anonymous"
     />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="src/style.css" />
 
     <title>Weather app</title>
   </head>
   <body>
     <div class="container">
-      <form id="form-search">
-        <input
-          type="search"
-          placeholder="Enter a city"
-          id="city-input"
-          value=" "
-        />
-        <button id="search">Search</button>
-        <button id="current-location-button">Current location</button>
-      </form>
-      <h1>Palermo</h1>
-      <div class="row">
-        <div class="col-6" id="current-day">Sunday</div>
-        <div class="col-6" id="current-time">16:00</div>
-      </div>
-      <h3>Sunny</h3>
-      <div class="row">
-        <div class="col-4 emoji">☀</div>
-        <div class="col-4">
-          <span class="temp"> 18</span>
-          <span><a href="#" id="c">°C</a> |<a href="#" id="f"> °F</a></span>
-        </div>
-        <div class="col-4">
-          Wind: <span id="wind">8</span>km/h<br />
-          Humidity: <span id="humidity">2</span>%
+      <div class="weather-app">
+        <h1>New York</h1>
+        <ul>
+          <li>Friday 05:00</li>
+          <li>Clear</li>
+        </ul>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              alt="Clear"
+            />
+            12°C | °F
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Percipitation: 0%</li>
+              <li>Humidity: 73%</li>
+              <li>Wind: 2 km/h</li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col">Monday <br />🌥<br />15°C</div>
-        <div class="col">Tuesday<br />🌥<br />15°C</div>
-        <div class="col">Wednesday<br />🌥<br />15°C</div>
-        <div class="col">Thursday<br />🌥<br />15°C</div>
-        <div class="col">Friday<br />🌥<br />15°C</div>
-      </div>
+      <small>
+        <a href="https://github.com/ToplaKavica/weather-app"></a>
+          Open source code
+        </a>
+        by Nadja Romšek
+      </small>
     </div>
     <script src="src/script.js"></script>
-    <a href="https://github.com/ToplaKavica/weather-app">Open source code</a> by
-    Nadja Romšek
   </body>
 </html>
