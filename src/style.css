@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #b33030;
+  background-color: #d8f5ff;
 }
 
 h1 {
@@ -29,7 +29,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #dadde1;
+  color: #5a5b5c;
   transition: all 0.5s ease-in-out;
 }
 
@@ -37,32 +37,30 @@ a:hover {
   color: #3a3845;
   font-weight: 500;
   text-decoration: underline;
-  font-size: 15px;
 }
 
 .btn {
   background-color: #3a3845;
-  border-radius: 5px;
+  border-radius: 10px;
   border-color: #dadde1;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .btn:hover {
   background-color: #3a38458a;
-  border-radius: 15px;
   border-color: #dadde1;
 }
 
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
-  color: #dadde1;
+  color: #5a5b5c;
 }
 .weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
-  background-color: #d3eca7;
+  background-color: #f3e04ead;
 }
 
 .overview {
