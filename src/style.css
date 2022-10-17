@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #d8f5ff;
+  background-image: url("prenos.jpg");
 }
 
 h1 {
@@ -52,7 +53,7 @@ a:hover {
 }
 
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 800px;
   margin: 30px auto;
   color: #5a5b5c;
 }
@@ -60,7 +61,7 @@ a:hover {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
-  background-color: #f3e04ead;
+  background-color: #fefefe;
 }
 
 .overview {
@@ -90,6 +91,7 @@ a:hover {
   margin-top: 20px;
   text-align: center;
   color: #000;
+  background-color: #d8f5ff;
 }
 
 .weather-forecast-date {
